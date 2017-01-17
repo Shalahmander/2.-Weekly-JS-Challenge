@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>2. Weekly JavaScript Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section>
+
+    <h1>2. Weekly JavaScript Challenge</h1>
+
+    <h2>  Zadanie:</br></br>
+      Stwórz aplikację w JavaScripcie i HTML. 
+      Aplikacja po uruchomieniu ma wyświetlać formularz, 
+      który umożliwia przeliczanie jednostek długości. 
+      Użytkownik ma możliwość wpisania liczby w polu oraz wyboru 
+      dwóch jednostek – wejściowej i wyjściowej.</br></br>
+      Założenia i wymagania:
+      <ul>
+        <li>użytkownik może wpisywać liczbę w pole</li>
+        <li>w trakcie wpisywania aplikacja ma automatycznie na bieżąco przeliczać i wyświetlać wynik – bez konieczności np. klikania w przycisk</li>
+        <li>użytkownik może dokonać wyboru dwóch jednostek: metr, kilometr, decymetr, centymetr, milimetr, cal, stopa, jard, mila</li>
+        <li>wpisanie w pole bzdur nie powinno „popsuć” aplikacji</li>
+        <li>dopuszczalne jest używanie bibliotek pomocniczych, np. jQuery</li>
+      </ul>
+    </h2>
+
+    <div>
+    </div>
+
+    <form>
+
+      <h3>Przelicznik miar długosci</h3>
+
+      <label>Z: 
+        <select name="old_measure">
+          <option value="metr">metr</option>
+          <option value="kilometr">kilometr</option>
+          <option value="decymetr">decymetr</option>
+          <option value="centymetr">centymetr</option>
+          <option value="milimetr">milimetr</option>
+          <option value="cal">cal</option>
+          <option value="stopa">stopa</option>
+          <option value="jard">jard</option>
+          <option value="mila">mila</option>
+        </select>
+      </label>
+
+      <label> Na: 
+      <select name="new_measure">
+          <option value="metr">metr</option>
+          <option value="kilometr">kilometr</option>
+          <option value="decymetr">decymetr</option>
+          <option value="centymetr">centymetr</option>
+          <option value="milimetr">milimetr</option>
+          <option value="cal">cal</option>
+          <option value="stopa">stopa</option>
+          <option value="jard">jard</option>
+          <option value="mila">mila</option>
+        </select>
+      </label>
+
+      <input type="text" placeholder=" Liczba"/>
+
+      <strong>Wynik: <p></p></strong>
+      
+    </form>
+
+  </section>
+
+</body>
+<script src="functions.js"></script>
+</html>

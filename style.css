@@ -1,0 +1,27 @@
+section{
+  width: 400px;
+  min-height: 500px;
+  padding: 15px;
+  border: 2px solid black;
+  background-color: rgba(0,0,0,0.1);
+}
+h1 {
+  font-size: 22px;
+  color: rgba(0,0,0,0.9);
+}
+h2 {
+  font-size: 14px;
+  color: rgba(0,0,0,0.7);
+}
+h3 { 
+  font-size: 18px;
+}
+
+div {
+  background:rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+strong{
+  display: inline-block;
+  padding-top: 15px;
+}
